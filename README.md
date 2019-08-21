@@ -1,7 +1,7 @@
 # SDET Coding Exercise
 
 ## Avero Public API
-Your task is to write automated tests against the Avero Public API. The API is specified via an [OpenAPI spec](./public_api_sdet_exercise.yaml) or see [the inline spec below](#avero-public-api-specification)
+Your task is to write automated tests against the Avero Public API. The API is specified via an [OpenAPI spec](./public_api_sdet_exercise.yaml) or see [the inline spec below](#avero-public-api-specification). You should run the API locally to test against. See [Running the API Locally](#running-the-api-locally) below for more information.
 
 ## Business Requirements
 * Given the OpenAPI specification, write a test suite that evaluates the correctness of the following API endpoints:
@@ -30,8 +30,16 @@ Your task is to write automated tests against the Avero Public API. The API is s
 
 ---
 ## Running the API Locally
-A mock version of the Avero Public API can be executed in a Docker container. It is this container against which you should write tests. 
-TODO: Add docker instructions here.
+A mock version of the Avero Public API can be executed in a Docker container. It is this container against which you should write tests.
+
+### Prerequisites
+You will need the latest `stable` docker release. See the [Docker install instructions](https://docs.docker.com/install/) for more information.
+
+### Steps to run
+
+1. Pull the Docker image: `docker pull avero/sdet-coding-exercise`
+2. Run the docker image, opening up port 9000: `docker run -p 9000:9000 avero/sdet-coding-exercise`
+3. You're all set. You can hit [http://localhost:9000/v1/core/businesses](http://localhost:9000/v1/core/businesses) in a browser and sanity check you get a response back
 
 ## Avero Public API Specification
 
