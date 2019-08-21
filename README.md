@@ -5,9 +5,9 @@ Your task is to write automated tests against the Avero Public API. The API is s
 
 ## Business Requirements
 * Given the OpenAPI specification, write a test suite that evaluates the correctness of the following API endpoints:
- * `/v1/core/businesses`
- * `/v1/core/businesses/{businessIds}`
- * `/v1/sales/summary-sales`
+    * `/v1/core/businesses`
+    * `/v1/core/businesses/{businessIds}`
+    * `/v1/sales/summary-sales`
 
 ## Expectations
 * Tests can be written in any language or framework, so long as we can run them with minimal setup
@@ -16,8 +16,8 @@ Your task is to write automated tests against the Avero Public API. The API is s
 ## Delivery
 * Your final output should be a link to a publicly hosted repo (e.g. GitHub, bitbucket) which includes all of your code, assets, etc. Anything that we need to run your project and wish us to evaluate.
 * Your deliverable should include a README file with clear instructions for running your solution. 
- * Any dependencies, build commands, etc - every step after git clone … should be clearly documented.
- * **If we can’t run it, we can’t evaluate it!**
+    * Any dependencies, build commands, etc - every step after git clone … should be clearly documented.
+    * **If we can’t run it, we can’t evaluate it!**
 * If you wish to include any other resources (design docs, planning breakdown, etc), you may reference and link them from the README.
 * When you're ready for us to review, you should email whoever you have been in contact with at Avero.
 
@@ -26,7 +26,7 @@ Your task is to write automated tests against the Avero Public API. The API is s
 1. We can see the output of your tests
 1. Your test suite is documented
 1. Bugs in our API or your test suite are documented
- * For example, you found a bug in the API (congrats!). You have a test that fails with an explanation of why it fails.
+    * For example, you found a bug in the API (congrats!). You have a test that fails with an explanation of why it fails.
 
 ---
 ## Running the API Locally
@@ -35,7 +35,7 @@ TODO: Add docker instructions here.
 
 ## Avero Public API Specification
 
-```
+```YAML
 openapi: '3.0.2'
 
 info:
