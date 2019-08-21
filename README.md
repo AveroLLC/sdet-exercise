@@ -38,7 +38,7 @@ You will need the latest `stable` docker release. See the [Docker install instru
 ### Steps to run
 
 1. Pull the Docker image: `docker pull avero/sdet-coding-exercise`
-2. Run the docker image, opening up port 9000: `docker run -p 9000:9000 avero/sdet-coding-exercise`
+2. Run the Docker image, opening up port 9000: `docker run -p 9000:9000 avero/sdet-coding-exercise`
 3. You're all set. You can hit [http://localhost:9000/v1/core/businesses](http://localhost:9000/v1/core/businesses) in a browser and sanity check you get a response back
 
 ## Avero Public API Specification
