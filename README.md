@@ -19,7 +19,10 @@ Your task is to write automated tests against the Avero Public API. The API is s
     * Any dependencies, build commands, etc - every step after git clone … should be clearly documented.
     * **If we can’t run it, we can’t evaluate it!**
 * If you wish to include any other resources (design docs, planning breakdown, etc), you may reference and link them from the README.
-* When you're ready for us to review, you should email whoever you have been in contact with at Avero.
+* When you're ready for us to review, you should email whoever you have been in contact with at Avero, providing:
+    * A link to your publicly hosted repository
+    * A rough estimate of how much time you spent (this isn't used in your evaluation but it does help us make sure we sized this exercise appropriately)
+    * A short description of what your next steps would be if you had more time to work on this project
 
 ## Evaluation Criteria
 1. We can run your tests
